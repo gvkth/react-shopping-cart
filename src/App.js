@@ -8,9 +8,7 @@ import { Provider } from "react-redux";
 
 class App extends React.Component {
 
-  createOrder = (order) => {
-    alert("Need to save order for " + order.name);
-  };
+  
 
   render() {
     return (
